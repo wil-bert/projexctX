@@ -1,11 +1,33 @@
+
+.nav a{
+    text-decoration: none;
+    text-align: center;
+    color: darkgray;
+    font-size: x-large;
+    padding: 10px 10px;
+}
+.nav a:hover{
+    background-color: rgb(240, 240, 240);
+    color: black;
+    border-radius: 10px;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+}
 .jumbotron{
     margin-top: 15px;
     text-align: center;
     width: 50%;
-    margin-left: 350px;
+   
 }
 .about{
-    display: block;
+    display: flexbox;
     text-align: center;
     color: white;
+}
+.join{
+    display: flex;
+   justify-content: center;
+
 }
