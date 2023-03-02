@@ -1,0 +1,11 @@
+.jumbotron{
+    margin-top: 15px;
+    text-align: center;
+    width: 50%;
+    margin-left: 350px;
+}
+.about{
+    display: block;
+    text-align: center;
+    color: white;
+}
