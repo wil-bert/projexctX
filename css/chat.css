@@ -23,12 +23,31 @@ main {
     content: '';
     width: 100%;
     height: calc(100vh - 165px);
-    background: white;
+    background-image: url(/images/pic3.jpg);
+    background-size:cover;
     padding: 5px 10px;
   }
   
-  .chat p {
+  .sms-left {
+    display: flexbox;
+    height: fit-content;
     margin: 0 0 5px 0;
+    background-color: black;
+    width: 50%;
+    color: #ddd;
+    border-radius: 5px;
+    
+  }
+  .sms-right{
+    display: flexbox;
+    float: right;
+    height: fit-content;
+    margin: 0 0 5px 0;
+    background-color: black;
+    width: 50%;
+    color: #ddd;
+    border-radius: 5px;
+    
   }
   
   input, button {
