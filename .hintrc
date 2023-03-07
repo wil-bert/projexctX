@@ -10,7 +10,8 @@
       {
         "image-alt": "off"
       }
-    ]
+    ],
+    "axe/structure": "off"
   },
   "browserslist": [
     "defaults",
