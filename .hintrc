@@ -11,7 +11,14 @@
         "image-alt": "off"
       }
     ],
-    "axe/structure": "off"
+    "axe/structure": "off",
+    "axe/parsing": "off",
+    "axe/name-role-value": [
+      "default",
+      {
+        "link-name": "off"
+      }
+    ]
   },
   "browserslist": [
     "defaults",

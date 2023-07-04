@@ -2,13 +2,14 @@
 .nav a{
     text-decoration: none;
     text-align: center;
-    color: darkgray;
+    color: rgb(0, 0, 0);
     font-size: x-large;
+    font-weight: bolder;
     padding: 10px 10px;
 }
 .nav a:hover{
     background-color: rgb(240, 240, 240);
-    color: black;
+    color: rgb(5, 61, 12);
     border-radius: 10px;
 }
 .heading{
@@ -17,17 +18,39 @@
 }
 .jumbotron{
     margin-top: 15px;
+    display: flex;
     text-align: center;
     width: 50%;
+    background-image:url(/images/pic5.jpg);
+    background-size: cover;
+    height: 70vh;
+    width: 50vw;
    
 }
 .about{
     display: flexbox;
+    margin-left: 150px;
     text-align: center;
     color: white;
+    width: 80%;
+    background-color: darkgrey;
+    border-radius: 2px;
 }
 .join{
     display: flex;
    justify-content: center;
 
+}
+h1{
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+}
+h2{
+    font-size: 50px;
+    color: black;
+}
+h3{
+    font-size: 20px;
+    color: black;
 }
